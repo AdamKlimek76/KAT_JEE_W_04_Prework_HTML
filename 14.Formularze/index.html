@@ -3,8 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-
+		<link rel="stylesheet" href="css/style.css"
 </head>
 <body>
+		<form class="contactForm">Twoje dane
+			<fieldset>
+				<legend></legend>
+					<label class="blabel">Your Name: 
+						<input type="text" class="tekst" name="inpname" placeholder="Your name">
+					</label>
+					<label class="blabel">Your E-mail Address:
+						<input type="email" class="tekst" name="inpemail" placeholder="Your e-mail">
+					</label>
+					<label class="blabel">Your Massage:
+						<textarea class="tekst" rows="10" name="inpmassage" placeholder="Please describe your question or comment"></textarea>
+					</label>
+						<input type="submit" class="button" value="Send">
+			</fieldset>		
+		</form>
+		</br></br>
+		<form class="rentcarForm">Car Rental
+			<fieldset>
+				<legend>Choose car class</legend>
+					<input type="radio" name="cars">
+					<label class="slabel">mini</label></br>
+					<input type="radio" name="cars">
+					<label class="slabel">economy</label></br>
+					<input type="radio" name="cars">
+					<label class="slabel">compact</label></br>
+					<input type="radio" name="cars">
+					<label class="slabel">SUV</label></br>
+					<input type="radio" name="cars">
+					<label class="slabel">VAN</label></br>
+			</fieldset></br>
+			
+			<fieldset>
+				<legend>Choose optional equipment</legend>
+					<input type="checkbox" name="extras" >
+					<label class="slabel">child seat</label></br>
+					<input type="checkbox" name="extras" checked="true">
+					<label class="slabel">GPS</label></br>
+					<input type="checkbox" name="extras">
+					<label class="slabel">CD player</label></br>
+			</fieldset>
+			
+					<label class="llabel">Rental start date 
+						<input type="date" class="llabel" name="inpdate" placeholder="yyyy-mm-dd">
+					</label></br>
+					<label class="llabel">Number of days 
+						<input type="number" class="llabel" name="inpnum">
+					</label></br>
+					<label class="llabel">Your passwoard 
+						<input type="password" class="llabel" name="inppass">
+					</label></br>
+					<input type="submit" class="button" value="Order Now!">
+			
+		</form>
 </body>
 </html>

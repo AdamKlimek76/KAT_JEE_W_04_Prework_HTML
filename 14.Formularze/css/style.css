@@ -1,0 +1,42 @@
+fieldset{
+					border: 1px solid black;
+}
+legend{
+				font-size: 22px;
+				font-weight: bold;	
+}
+.contactForm{
+				font-size: 36px;
+				font-weight: bold;
+				width:450px;
+}
+.rentcarForm{
+				font-size: 36px;
+				font-weight: bold;
+				width: 450px;
+}
+.tekst{
+			width: 400px;
+			display:block;
+}
+.button{
+			width: 120px;
+			height: 30px;
+			margin: 5px;
+			font-size:20px;
+			font-weight: bold;
+			display: block;
+}
+.blabel{
+				display: block;
+				font-size: 30px;
+				font-weight: bold;
+}
+.slabel{
+				font-size: 20px;
+				display: inline;
+}
+.llabel{
+				font-size: 20px;
+				font-weight: normal;	
+}

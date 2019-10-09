@@ -1,0 +1,39 @@
+.czerwony{
+					color: red;
+}
+.zielony{
+					color: green;
+}
+.ciemnozielony{
+					color: darkkhaki;
+}
+.parUnits{
+					color: grey;
+}
+.container{
+					width: 200px;
+					background-color: yellow;
+}
+.first{
+					width: 50%;
+					background-color: #d8c39b;
+}
+.second{
+					width: 10em;
+					background-color: #9e9686;
+}
+#jeden{
+					color: blue;
+}
+#dwa{
+					color: purple;
+}
+#par1{
+					background-color: #c9a25d;
+}
+#par2{
+					background-color: rgb(243, 237, 226);
+}
+#par3{
+					background-color: hsl(250, 80%, 10%);
+}
